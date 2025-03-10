@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/421/437/HD-wallpaper-plain-purple-background-purple.jpg");
+    margin: 0;
+    background-size: cover;
+}
+.login-container {
+    background-image: url("https://t3.ftcdn.net/jpg/03/28/99/98/360_F_328999813_aJARk1XFS3uDeURkBfGnnmHwo9Ga55DV.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+    margin-bottom: 40px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
